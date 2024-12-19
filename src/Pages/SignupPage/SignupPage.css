@@ -1,0 +1,28 @@
+.signup-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+  gap: 60px;
+  height: 100%;
+  position: relative;
+}
+
+.signup-form {
+  min-width: 400px;
+}
+
+.signup-marketing {
+  background: linear-gradient(to right, #cb3080, #ff416c);
+  color: white;
+  padding: 20px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  border-radius: 8px;
+}

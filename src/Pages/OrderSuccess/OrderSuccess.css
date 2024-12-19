@@ -1,0 +1,10 @@
+.order-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-image {
+  height: 400px;
+}

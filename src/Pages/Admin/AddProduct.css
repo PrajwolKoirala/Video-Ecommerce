@@ -1,0 +1,16 @@
+.add-product {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.add-product .delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 40px;
+}
