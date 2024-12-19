@@ -1,0 +1,79 @@
+.contact-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+.contact-container .form-containersss {
+  align-items: center;
+  margin-top: 70px;
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  justify-content: right;
+  flex-direction: column;
+}
+.contact-container .form-container {
+  position: relative;
+  width: 50%;
+  max-width: 400px;
+  padding: 20px;
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffffff
+  ); /* Adjust gradient colors */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: rgb(19, 1, 1);
+}
+.contact-container .form-container h2 {
+  align-items: center;
+  font-size: 30px;
+}
+.contact-container .form-group {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-container label {
+  font-weight: bold;
+}
+
+.contact-container input[type='text'],
+.contact-container input[type='email'],
+.contact-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  resize: none;
+}
+
+.contact-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0338b;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #f0338b; /* Lighter shade for hover effect */
+}
